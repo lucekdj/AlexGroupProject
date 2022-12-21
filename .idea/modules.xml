@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Alex -group-project.iml" filepath="$PROJECT_DIR$/.idea/Alex -group-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-1-DataTypes/group-project-1-DataTypes.iml" filepath="$PROJECT_DIR$/group-project-1-DataTypes/group-project-1-DataTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-2-Operators/group-project-2-Operators.iml" filepath="$PROJECT_DIR$/group-project-2-Operators/group-project-2-Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-3-IfStatement/group-project-3-IfStatement.iml" filepath="$PROJECT_DIR$/group-project-3-IfStatement/group-project-3-IfStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-4-nested-if/group-project-4-nested-if.iml" filepath="$PROJECT_DIR$/group-project-4-nested-if/group-project-4-nested-if.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-6-loop/group-project-6-loop.iml" filepath="$PROJECT_DIR$/group-project-6-loop/group-project-6-loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-5-Methods/src/main/main.iml" filepath="$PROJECT_DIR$/group-project-5-Methods/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-8-Arrays/src/main/main1.iml" filepath="$PROJECT_DIR$/group-project-8-Arrays/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-7-String/src/main/main2.iml" filepath="$PROJECT_DIR$/group-project-7-String/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-9-ClassesAndObjects/src/main/main3.iml" filepath="$PROJECT_DIR$/group-project-9-ClassesAndObjects/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-9-ClassesAndObjects/src/test/test.iml" filepath="$PROJECT_DIR$/group-project-9-ClassesAndObjects/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-5-Methods/src/test/test1.iml" filepath="$PROJECT_DIR$/group-project-5-Methods/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-7-String/src/test/test2.iml" filepath="$PROJECT_DIR$/group-project-7-String/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-8-Arrays/src/test/test3.iml" filepath="$PROJECT_DIR$/group-project-8-Arrays/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-project-4-nested-if/untitled/untitled.iml" filepath="$PROJECT_DIR$/group-project-4-nested-if/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
