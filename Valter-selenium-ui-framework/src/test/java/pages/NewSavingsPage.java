@@ -1,10 +1,13 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class NewSavingsPage extends BasePage {
+
+
 
     @FindBy(xpath = "//h1[contains(text(), 'Savings')]")
     WebElement cartTitle;
@@ -21,6 +24,24 @@ public class NewSavingsPage extends BasePage {
     @FindBy(xpath = "//input[@id='openingBalance']")
     WebElement openingBalance;
 
+    @FindBy(id = "newSavingsSubmit")
+    WebElement submitBtn;
+
+
+    @FindBy(xpath = "//h1[text()='View Savings Accounts']")
+    WebElement viewSavAccTitle;
+
+
+
+    String expectedDeposit;
+    public void setActualDeposit(String deposit) {
+        this.expectedDeposit = deposit;
+
+
+    }
+    public String getExpectedDeposit()  {
+        return expectedDeposit;
+    }
 
 
 
@@ -50,6 +71,21 @@ public class NewSavingsPage extends BasePage {
 
         WebElement initDeposit1 = driver.findElement(By.xpath(initialDeposit));
         initDeposit1.click();
+    }
+
+
+    public void enterNameAndDeposit() {
+
+
+    }
+
+    public void clickOnSubmitBtn() {
+        submitBtn.click();
+    }
+
+    public boolean verifyNewSavingIsVisible() {
+        return viewSavAccTitle.isDisplayed();
+
     }
 
 

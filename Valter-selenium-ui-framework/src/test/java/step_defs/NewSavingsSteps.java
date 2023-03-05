@@ -47,23 +47,35 @@ public class NewSavingsSteps{
 
 
     @When("user enters the account name {string} and the initial deposit {string}")
-    public void user_enters_the_account_name_testAccount_and_the_initial_deposit_3000() {
+    public void user_enters_the_account_name_testAccount_and_the_initial_deposit_3000(String name, String amount) {
+        NewSavingsPage newSavingsPage = new NewSavingsPage();
+        newSavingsPage.enterNameAndDeposit();
+
+        newSavingsPage.setActualDeposit(amount);
 
     }
 
     @When("user clicks on submit button to create the savings account")
     public void user_clicks_on_submit_button_to_create_the_savings_account() {
-        
+        NewSavingsPage newSavingsPage = new NewSavingsPage();
+        newSavingsPage.clickOnSubmitBtn();
     }
 
     @Then("verify Successfully Created message for the savings account is displayed")
     public void verify_successfully_created_message_for_the_savings_account_is_displayed() {
-        
+        NewSavingsPage newSavingsPage = new NewSavingsPage();
+        Assert.assertTrue("message is not displayed", newSavingsPage.verifyNewSavingIsVisible());
     }
 
     @Then("verify that the amount displayed is the same as the amount entered by the user")
     public void verify_that_the_amount_displayed_is_the_same_as_the_amount_entered_by_the_user() {
-        
+        NewSavingsPage newSavingsPage = new NewSavingsPage();
+
+        String expected = newSavingsPage.getExpectedDeposit();
+        String actual = ;
+
+        Assert.assertEquals(expected, actual,  "Expected amount not match actual amount");
     }
+
 
 }

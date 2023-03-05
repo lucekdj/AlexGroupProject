@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a22f43-8d0f-42e9-9913-62b01bba71d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium-ui-framework/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../group-project-selenium-1/src/main/java/exercises/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/../group-project-selenium-1/src/main/java/exercises/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Valter-selenium-ui-framework/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
