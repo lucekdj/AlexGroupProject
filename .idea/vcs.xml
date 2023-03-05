@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GroupSprintPractice_JavaSuperStar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GroupSprintPractice_JavaSuperStar/Bank" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GroupSprintPractice_JavaSuperStar/Bank/BankGroupProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GroupSprintPractice_JavaSuperStar/NuraGitHub/FirstSprintGroupProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GroupSprintPractice_JavaSuperStar/ShoppingCartGroupProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ShyamSelenium-ui-framework-fall-2022" vcs="Git" />
   </component>
 </project>
